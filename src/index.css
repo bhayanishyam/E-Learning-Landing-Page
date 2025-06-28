@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #f7ba34;
+  --color-secondary: #69a79c;
+  --color-light: #f7f7f7;
+  --color-dark: #333333;
+  --color-dark2: #999999;
+}
+
+@layer components {
+  .primary-btn {
+    @apply inline-block bg-primary text-white font-semibold rounded-lg py-2 px-6 hover:bg-secondary duration-200 shadow-[0px_10px_8px_-7px_#ffd978] hover:shadow-[0px_10px_8px_-7px_#69a79c];
+  }
+
+  .container {
+    @apply object-center p-4 sm:p-8 lg:p-16 xl:p-20 2xl:p-24;
+  }
+}
+
+@layer utilities {
+  .drop-shadow {
+    filter: drop-shadow(6px, 8px, 10px, rgba(0, 0, 0, 0.5));
+  }
+}
