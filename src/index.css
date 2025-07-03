@@ -14,7 +14,7 @@
   }
 
   .container {
-    @apply object-center p-4 sm:p-8 lg:p-16 xl:p-20 2xl:p-24;
+    @apply mx-auto p-4 sm:p-8 lg:p-16 xl:p-20 2xl:p-24;
   }
 }
 

@@ -1,6 +1,7 @@
 import Hero from "./Components/Hero/Hero"
 import Services from "./Components/Services/Services"
 import Banner from "./Components/Banner/Banner"
+import Subscribe from "./Components/Subscribe/Subscribe"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Services />
       <Banner />
+      <Subscribe />
     </main>
   )
 }
