@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Navbar from '../Navbar/Navbar';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 import Blob from "../../assets/download.svg"
