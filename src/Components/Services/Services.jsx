@@ -55,7 +55,7 @@ export default function Services() {
     ]
 
     return (
-        <section className='bg-white'>
+        <section>
             <div className='container pb-14 pt-16'>
                 {/* title */}
                 <h1 className='text-4xl font-bold text-left pb-10'>Services We Provide</h1>
@@ -68,7 +68,7 @@ export default function Services() {
                                 initial={{ opacity: 0, x: 50 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true }}
-                                transition={{ duration: 0.3, delay: item.delay-0.1, ease: "easeInOut" }}
+                                transition={{ duration: 0.3, delay: item.delay - 0.1, ease: "easeInOut" }}
                                 key={item.id} className='bg-light rounded-3xl py-7 px-4 gap-4 flex flex-col justify-center items-center hover:bg-white hover:scale-110 duration-300 hover:shadow-2xl'>
                                 <div className='text-4xl mb-4'>{item.icon}</div>
                                 <h1 className='text-lx font-semibold text-center px-3'>{item.title}</h1>

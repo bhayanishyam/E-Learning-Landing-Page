@@ -13,7 +13,6 @@ export default defineConfig({
       fontFamily: {
         poppins: ["Poppins", "sans-serif"]
       },
-    
     }
   }
 })
